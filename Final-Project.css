@@ -8,12 +8,17 @@ header {
   line-height: 20px;
 }
 
+.logo {
+  width: 50px;
+}
+
 .section-1 {
   background-color: #ff3333;
   color: white;
   border-top: 8px solid #cc0000;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-right: 50px;
 }
 
 .shoe-1 {
@@ -33,24 +38,54 @@ header {
 }
 
 h2 {
-  color: black;
-  font-size: 30px;
-  line-height: 40px;
+  color: maroon;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 h4 {
-  color: grey;
-  font-size: 20px;
+  color: black;
+  font-size: 25px;
   line-height: 30px;
 }
 
 h5 {
+  color: grey;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h6 {
   color: black;
   font-size: 20px;
+  line-height: 20px;
+}
+
+h7 {
+  color: white;
+  font-size: 25px;
   line-height: 30px;
+  text-align: left;
 }
 
 .section-2 {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 170px;
+  padding-right: 90px;
+}
+
+.section-3 {
+  background-color: #ff3333;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 50px;
+  border-top: 30px solid grey;
+}
+
+.Box3-Content {
   text-align: left;
   padding-top: 30px;
   padding-bottom: 30px;
