@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Final Project</title>
     <link rel="stylesheet" href="Final-Project.css"/>
     <link href="https://fonts.googlkjlkjeapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://file.myfontastic.com/qgJ2FYQkhHovrFw27KogoB/icons.css" rel="stylesheet">
   </head>
 
   <body>
+
+<!-- HEADER     -->
     <header>
-      <nav>
-        <img src="Images/logo.jpg" class="logo">
+      <nav class="header">
+        <div class="header-left">
+          <span><img src="Images/logo.jpg" class="logo"></span>
+          <span><a href="#">Mens</a></span>
+          <span><a href="#">Womens</a></span>
+          <span><a href="#">Boys</a></span>
+          <span><a href="#">Girls</a></span>
+          <span><a href="#">Customize</a></span>
+        </div>
+
+        <div class="header-right">
+          <span><a href="#">Help</a></span>
+          <span><a href="#">My Account</a></span>
+          <span><a href="#">Help</a></span>
+          <span><img src="Images/cart.jpg"></span>
+          <span><a href="3">Shopping Cart (2)</a></span>
+        </div>
       </nav>
-      <nav>
-        men   women   boys  girls  customize
-      </nav>
-      <nav>
-        Help My Account
-        <img src="Images/cart.jpg">
-        Shopping Cart (2)
-        </nav>
     </header>
 
+<!-- SECTION 1 -->
     <section class="section-1">
+
       <div class="Box1-Content">
-      <a href="#">
-        Back to All Shoes
-      </a>
-      <div>
-        <img src="Images/shoe1.png" class="shoe-1" alt=Image of Converse sneaker title=""/>
-      </div>
-      <h1>Quick Sneakers</h1>
-      <h2>SPRING/SUMMER 2017</h2>
-      <P class="lorem">
-        lorem smeakers are excellent at our store and should be bought at aa minimum of 20 lot units, which will ensure a lasting supply.
-      </P>
-      <h3>$120.00</h3>
-      <a href="#">Buy Now!</a>
-      </div>
+        <div class="left-content">
+          <a href="#">Back to All Shoes</a>
+          <div>
+            <img src="Images/shoe1.png" class="shoe-1" alt=Image of Converse sneaker title=""/>
+          </div>
+        </div>
+
+        <div class="right-content">
+            <h1>Quick Sneakers</h1>
+            <h2>SPRING/SUMMER 2017</h2>
+            <P class="lorem">
+              lorem smeakers are excellent at our store and should
+              be bought at aa minimum of 20 lot units, which will ensure a lasting
+              supply.
+            </P>
+<!--put the 120 and buy button in a separate divs and
+in css write - display: inline; -->
+            <div class="price"><h3>$120.00</h3></div>
+            <div class="buy-button">BUY NOW!</div>
+        </div>
+
     </section>
 
+
+<!-- SECTION 2 -->
     <section class="section-2">
-      <nav>
-        Product Details  Size & Fit  Reviews * * * * *
-        <img src="Images/cart.jpg">
+
+      <nav class="Product-Reviews">
+        <div class="Prod">
+          <span>Product Details</span>
+          <span>Size & Fit </span>
+        </div>
+
+        <div class="Stars">
+          <span>Reviews</span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star"></span>
+          <span class="icon-star-o"></span>
+        </div>
       </nav>
+
       <h4>Exciting Topic</h4>
       <h5>Content here</h5>
       <h6>Exciting Topic</h6>
@@ -52,39 +87,55 @@
       <h4>Find Your Show size & Fit</h4>
       <h5>Content here</h5>
       <h4>What Our Customers Are Saying!</h4>
-      <p>Don't take our word for it! Read what our customers have been saying a out this prouct.  We guarantee you won't be disappointed in your purchase.</p>
+      <p>
+        Don't take our word for it! Read what our customers have been
+        saying a out this prouct.  We guarantee you won't be disappointed
+        in your purchase.
+      </p>
     </section>
 
+<!-- SECTION 3 ------------------->
+  <section class="Bar">
+    Shop Recommended Shoes
+  </section>
 
     <section class="section-3">
+
       <div class="Box3-Content">
-        <div>
-        <img src="Images/shoe2.png" class="shoe-1" alt=Image of Funny Sneakers=""/>
+
+        <div class="Box3-left">
+            <div>
+            <img src="Images/shoe2.png" class="shoe-1" alt=Image of Funny Sneakers=""/>
+            </div>
+            <span><h7>Funny Sneakers</h7></span>
+            <span><h3>$120.00</h3></span>
+            <h2>SPRING/SUMMER 2017</h2>
+          </div>
+
+          <div class="Box3-middle">
+            <div>
+            <img src="Images/shoe3.png" class="shoe-1" alt=Image of Nimble Sneakers=""/>
+            </div>
+            <h7>Nimble Sneakers</h7>
+            <h3>$120.00</h3>
+            <h2>SPRING/SUMMER 2017</h2>
+          </div>
+
+          <div class="Box3-right">
+            <div>
+            <img src="Images/shoe4.png" class="shoe-1" alt=Image of Funny Sneakers=""/>
+            </div>
+            <h7>Cute Sneakers</h7>
+            <h3>$120.00</h3>
+            <h2>SPRING/SUMMER 2017</h2>
+          </div>
+
         </div>
-        <h7>Funny Sneakers</h7>
-        <h2>SPRING/SUMMER 2017</h2>
-        <h3>$120.00</h3>
-
-        <div>
-        <img src="Images/shoe3.png" class="shoe-1" alt=Image of Nimble Sneakers=""/>
-        </div>
-        <h7>Nimble Sneakers</h7>
-        <h2>SPRING/SUMMER 2017</h2>
-        <h3>$120.00</h3>
-
-
-        <div>
-        <img src="Images/shoe4.png" class="shoe-1" alt=Image of Funny Sneakers=""/>
-        </div>
-        <h7>Cute Sneakers</h7>
-        <h2>SPRING/SUMMER 2017</h2>
-        <h3>$120.00</h3>
-
-      </div>
     </section>
 
   </body>
 
+  <!-- FOOTER -->
   <footer>
     <nav>
       <img src="Images/logo.jpg" class="logo">
