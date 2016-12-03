@@ -51,6 +51,7 @@ body{
 
 .right-content {
   float: right;
+  margin-bottom: 20px;
 }
 
 .left-content, .right-content {
