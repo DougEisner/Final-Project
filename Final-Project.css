@@ -10,9 +10,6 @@ body{
   display: block;
 }
 
-.HL a:link {
-  color: red;
-}
 
 
 .logo {
@@ -42,29 +39,27 @@ body{
 }
 
 /*LINK BEHAVIOR*/
-/* unvisited link */
 
+/*Span class headerlinks*/
 .headerlinks a:link {
   color:red;
+  text-decoration: none;
 }
 
-span a: link {
+a: link {
     color: red;
 }
 
-/* visited link */
 a:visited {
     color: green;
 }
 
-/* mouse over link */
 a:hover {
-    color: hotpink;
+    color: black;
 }
 
-/* selected link */
 a:active {
-    color: blue;
+    color: red;
 }
 
 
