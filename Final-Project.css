@@ -10,6 +10,11 @@ body{
   display: block;
 }
 
+.HL a:link {
+  color: red;
+}
+
+
 .logo {
   width: 50px;
 }
@@ -33,12 +38,39 @@ body{
 }
 
 .header-right span {
-  padding right: 20px;
+  padding-right: 20px;
 }
+
+/*LINK BEHAVIOR*/
+/* unvisited link */
+
+.headerlinks a:link {
+  color:red;
+}
+
+span a: link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 
 /*SECTION-1  -----------------------------*/
 .section-1 {
-  background-color: #ff3333;
+  background-image: linear-gradient(to right, #f44250, orange);
   color: white;
   border-top: 8px solid #cc0000;
   margin-top: 200px;
@@ -51,7 +83,7 @@ body{
 
 .right-content {
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .left-content, .right-content {
@@ -100,6 +132,7 @@ body{
 }
 
 /*SECTION 2 -------------------------*/
+
 .Product-Reviews {
   color: red;
 }
@@ -172,11 +205,11 @@ h7 {
   background: #ffe4e1;
   color: #737373;
   border: 1x solid black;
-  height: 60px;
+  /*height: 60px;*/
   font-size: 25px;
   text-align: center;
-  padding-top: 15px;
-  /*padding-bottom: 5px;*/
+  height: 70px;
+  line-height: 70px;
 }
 
 
@@ -185,7 +218,7 @@ h7 {
   color: white;
   margin-bottom: 20px;
   padding-right: 50px;
-  height: 600px;
+  /*height: 600px;*/
 
 }
 
@@ -201,4 +234,32 @@ h7 {
   border: 1px solid black;
   display: inline-block;
   width: 400px;
+}
+
+
+/*FOOTER -------------------*/
+.footer {
+  height: 70px;
+  line-height: 70px;
+}
+
+.footer-left {
+  color: orange;
+  float:left;
+  height: 60px;
+  line-height: 60px;
+}
+.footer-left span {
+  padding-right: 20px;
+}
+.footer-right {
+  float: right;
+  font-size: 8;
+  height: 60px;
+  line-height: 60px;
+}
+
+/*This padding has no effect on footer-right span*/
+.footer-right span {
+  padding-right: 35px;
 }
