@@ -4,23 +4,19 @@ body{
 
 /*HEADER-----------------------*/
 .header {
-  color: red;
-  text-transform: uppercase;
-  line-height: 20px;
+  line-height: 60px;
+  height: 60;
   display: block;
 }
-
-
+.header {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 
 .logo {
   width: 50px;
 }
 
-.header {
-  color: red;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
 
 .header-left {
   color: red;
@@ -39,23 +35,23 @@ body{
 }
 
 /*LINK BEHAVIOR*/
-
-/*Span class headerlinks*/
 .headerlinks a:link {
-  color:red;
+  color: red;
   text-decoration: none;
+  font-weight: bold;
 }
 
-a: link {
-    color: red;
+.headerlinks a:hover {
+    color: darkred;
+    text-decoration: underline;
+
 }
 
 a:visited {
     color: green;
 }
 
-a:hover {
-    color: black;
+
 }
 
 a:active {
@@ -116,9 +112,13 @@ a:active {
   padding-left: 20px;
   /*height 150px;
   width: 100;*/
-
-
   border-radius: 10;
+}
+
+.lorem, .read {
+  display: inline-block;
+  border-bottom: 1px dashed red;
+  padding: 10px;
 }
 
 .price, .buy-button {
