@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <title>Final Project</title>
     <link rel="stylesheet" href="Final-Project.css"/>
-    <link href="https://fonts.googlkjlkjeapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- <link href="https://fonts.googlkjlkjeapis.com/css?family=Raleway" rel="stylesheet"> -->
     <link href="https://file.myfontastic.com/qgJ2FYQkhHovrFw27KogoB/icons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -26,7 +27,8 @@
         <div class="header-right">
           <span class="rheaderlinks"><a href="#">Help</a></span>
           <span class="rheaderlinks"><a href="#">My Account</a></span>
-          <span class="rheaderlinks"><a href="#"><img src="Images/cart.jpg">Shopping Cart (2)</a></span>
+          <span class="rheaderlinks"><a href="#"><img src="Images/cart.jpg">   Shopping Cart</a></span>
+          <span class="parenCount">(</span><span class="count">0</span><span>)</span>
         </div>
       </nav>
     </header>
@@ -35,8 +37,9 @@
     <section class="section-1">
 
       <div class="Box1-Content">
+
         <div class="left-content">
-          <a href="#">Back to All Shoes</a>
+            <a class="back" href="#">Back to All Shoes</a>
           <div>
             <img src="Images/shoe1.png" class="shoe-1" alt=Image of Converse sneaker title=""/>
           </div>
@@ -48,16 +51,15 @@
             <div class="lorem">
               lorem smeakers are excellent at our store and should
               be bought at aa minimum of 20 lot units, which will ensure a lasting
-              supply.
+              supply. <a class="read" href="#">Read the Reviews</a>
             </div>
-            <div class=read><a href="#"></a>Read the Reviews</a></div>
-            <div>
-              +++++++++++++++++++++
-            </div>
+
 <!--put the 120 and buy button in a separate divs and
 in css write - display: inline; -->
-            <div class="price"><h3>$120.00</h3></div>
-            <div class="buy-button">BUY NOW!</div>
+            <div>
+              <div class="price"><h3>$120.00</h3></div>
+              <div class="buy-button">BUY NOW!</div>
+            </div>
         </div>
 
     </section>
@@ -68,8 +70,8 @@ in css write - display: inline; -->
 
       <nav class="Product-Reviews">
         <div class="Prod">
-          <span>Product Details</span>
-          <span>Size & Fit </span>
+          <span class="lefttext"><a href="#">Product Details</a></span>
+          <span class="lefttext"><a href="#">Size & Fit</a></span>
         </div>
 
         <div class="Stars">
@@ -134,7 +136,7 @@ in css write - display: inline; -->
 
         </div>
     </section>
-
+    <script src="Final-Project.js"></script>
   </body>
 
   <!-- FOOTER -->
