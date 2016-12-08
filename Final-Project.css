@@ -63,8 +63,9 @@ body{
     text-decoration: underline;
 }
 
-.parenCount span {
+.parenCount {
   padding-right: 2px;
+  color: orange;
 }
 
 
@@ -82,6 +83,10 @@ body{
   clear: both;
 }
 
+.left-content {
+  margin-top: 40px;
+}
+
 .right-content {
   float: right;
   margin-bottom: 30px;
@@ -89,7 +94,7 @@ body{
 
 .left-content, .right-content {
   display: inline-block;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 .back a {
   color: white;
@@ -140,7 +145,7 @@ body{
 
 .price, .buy-button {
   display: inline-block;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .price {
@@ -235,21 +240,21 @@ h7 {
   background-image: linear-gradient(to right, #f44250, orange);
   color: white;
   margin-bottom: 20px;
-  padding-right: 50px;
+  padding-right: 10px;
+  height: 500px;
   /*height: 600px;*/
 
 }
 
 .Box3-Content {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 170px;
-  padding-right: 90px;
-  border:1px solid black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 120px;
+  /*border:1px solid black;*/
 }
 
 .Box3-left, .Box3-middle, .Box3-right  {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: inline-block;
   width: 400px;
 }
